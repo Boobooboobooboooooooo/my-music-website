@@ -13,7 +13,10 @@
     "build": "npm run scan-music && npm run generate-icons && tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "postbuild": "if [ -d Music ]; then cp -r Music dist/Music || true; fi"
+    "postbuild": "if [ -d Music ]; then cp -r Music dist/Music || true; fi",
+    "cap:sync": "npx cap sync",
+    "cap:ios": "npx cap open ios",
+    "cap:build": "npm run build && npx cap sync"
   },
   "dependencies": {
     "firebase-admin": "^12.7.0",
@@ -25,6 +28,12 @@
     "wavesurfer.js": "^7.6.0"
   },
   "devDependencies": {
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "@capacitor/preferences": "^8.0.0",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",

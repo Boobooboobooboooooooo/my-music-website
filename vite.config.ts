@@ -113,6 +113,10 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     copyPublicDir: true,
+    rollupOptions: {
+      // Exclude Music folder from public dir copy if it doesn't exist
+      external: [],
+    },
   },
 })
 

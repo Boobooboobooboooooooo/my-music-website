@@ -54,14 +54,15 @@ function extractMetadataFromFilename(filename) {
 async function scanMusicFolder() {
   console.log('Scanning Music folder...');
   
+  // Ensure public directory exists
+  const publicDir = path.dirname(OUTPUT_FILE);
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+  
   if (!fs.existsSync(MUSIC_FOLDER)) {
     console.warn(`Music folder not found at: ${MUSIC_FOLDER}`);
     console.warn('Creating empty songs.json file...');
-    // Ensure public directory exists
-    const publicDir = path.dirname(OUTPUT_FILE);
-    if (!fs.existsSync(publicDir)) {
-      fs.mkdirSync(publicDir, { recursive: true });
-    }
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify([], null, 2));
     console.log('✅ Created empty songs.json');
     return;

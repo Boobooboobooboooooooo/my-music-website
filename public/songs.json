@@ -1,0 +1,233 @@
+[
+  {
+    "id": "song-1-1765965047393",
+    "title": "Do The Soul Glide",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 218,
+    "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Blue%20Music%20/Do%20The%20Soul%20Glide.mp3",
+    "genre": "Blues",
+    "year": null
+  },
+  {
+    "id": "song-2-1765965047400",
+    "title": "My Medicine",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 297,
+    "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&auto=format",
+    "audioUrl": "/Music/Blue%20Music%20/My%20Medicine.mp3",
+    "genre": "Blues",
+    "year": null
+  },
+  {
+    "id": "song-3-1765965047406",
+    "title": "Shuffle & Shine",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 311,
+    "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&auto=format",
+    "audioUrl": "/Music/Blue%20Music%20/Shuffle%20%26%20Shine.mp3",
+    "genre": "Blues",
+    "year": null
+  },
+  {
+    "id": "song-4-1765965047414",
+    "title": "Since Middle School",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 293,
+    "cover": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Blue%20Music%20/Since%20Middle%20School.mp3",
+    "genre": "Blues",
+    "year": null
+  },
+  {
+    "id": "song-5-1765965047418",
+    "title": "Sweet Obsession",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 291,
+    "cover": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Blue%20Music%20/Sweet%20Obsession.mp3",
+    "genre": "Blues",
+    "year": null
+  },
+  {
+    "id": "song-6-1765965047423",
+    "title": "The Lens In Between",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 314,
+    "cover": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop&auto=format",
+    "audioUrl": "/Music/R%26B%3APop%20Music%20/The%20Lens%20In%20Between.mp3",
+    "genre": "R&B",
+    "year": null
+  },
+  {
+    "id": "song-7-1765965047429",
+    "title": "Better Than That",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 233,
+    "cover": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Better%20Than%20That.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-8-1765965047433",
+    "title": "Damaged Goods",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 378,
+    "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Damaged%20Goods.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-9-1765965047438",
+    "title": "Dust and Bones",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 223,
+    "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop&auto=format",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Dust%20and%20Bones.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-10-1765965047442",
+    "title": "Feast of Dominion",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 170,
+    "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Feast%20of%20Dominion.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-11-1765965047446",
+    "title": "Guilty 'Til Proven",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 170,
+    "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Guilty%20'Til%20Proven.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-12-1765965047450",
+    "title": "Mirrors Don't Lie",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 239,
+    "cover": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop&auto=format",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Mirrors%20Don't%20Lie.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-13-1765965047455",
+    "title": "Natural Swag",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 193,
+    "cover": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop&auto=format",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Natural%20Swag.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-14-1765965047461",
+    "title": "No Parachute",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 190,
+    "cover": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=400&fit=crop",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/No%20Parachute.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-15-1765965047466",
+    "title": "Permission Slip",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 192,
+    "cover": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Permission%20Slip.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-16-1765965047468",
+    "title": "Poison in the Fruit",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 177,
+    "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Poison%20in%20the%20Fruit.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-17-1765965047470",
+    "title": "STRAIN TALK",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 224,
+    "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/STRAIN%20TALK.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-18-1765965047473",
+    "title": "Sinkin' in the Mud",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 196,
+    "cover": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400&h=400&fit=crop",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Sinkin'%20in%20the%20Mud.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-19-1765965047475",
+    "title": "Tested and Blessed",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 229,
+    "cover": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Tested%20and%20Blessed.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-20-1765965047478",
+    "title": "Two Sided Mirror",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 196,
+    "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Two%20Sided%20Mirror.mp3",
+    "genre": "Rap",
+    "year": null
+  },
+  {
+    "id": "song-21-1765965047482",
+    "title": "Vibe Locked",
+    "artist": "Unknown Artist",
+    "album": "Unknown Album",
+    "duration": 237,
+    "cover": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
+    "audioUrl": "/Music/Rap%3ATrap%20Music%20/Vibe%20Locked.mp3",
+    "genre": "Rap",
+    "year": null
+  }
+]

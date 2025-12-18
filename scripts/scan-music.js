@@ -9,6 +9,10 @@ const __dirname = path.dirname(__filename);
 const MUSIC_FOLDER = path.join(__dirname, '../Music');
 const OUTPUT_FILE = path.join(__dirname, '../public/songs.json');
 
+// R2 Base URL - Set this to your R2 public URL (e.g., 'https://pub-xxxxx.r2.dev')
+// Leave empty to use local paths (/Music/...)
+const R2_BASE_URL = process.env.R2_BASE_URL || '';
+
 // Supported audio formats
 const AUDIO_EXTENSIONS = ['.mp3', '.m4a', '.wav', '.flac', '.ogg', '.aac'];
 
@@ -245,6 +249,16 @@ async function scanMusicFolder() {
       const relativePath = path.relative(MUSIC_FOLDER, filePath);
       const encodedPath = relativePath.split(path.sep).map(encodeURIComponent).join('/');
       
+      // Generate audioUrl - use R2 if configured, otherwise use local path
+      let audioUrl;
+      if (R2_BASE_URL) {
+        // Remove leading slash from encodedPath if R2_BASE_URL already has one
+        const cleanPath = encodedPath.startsWith('/') ? encodedPath.slice(1) : encodedPath;
+        audioUrl = `${R2_BASE_URL}/${cleanPath}`;
+      } else {
+        audioUrl = `/Music/${encodedPath}`;
+      }
+      
       const song = {
         id: `song-${i + 1}-${Date.now()}`,
         title: title || fileInfo.title,
@@ -252,7 +266,7 @@ async function scanMusicFolder() {
         album: album || 'Unknown Album',
         duration: duration || 0,
         cover: cover,
-        audioUrl: `/Music/${encodedPath}`,
+        audioUrl: audioUrl,
         genre: genre,
         year: year,
       };

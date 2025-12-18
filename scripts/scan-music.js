@@ -55,9 +55,9 @@ async function scanMusicFolder() {
   console.log('Scanning Music folder...');
   
   // Ensure public directory exists
-  const publicDir = path.dirname(OUTPUT_FILE);
-  if (!fs.existsSync(publicDir)) {
-    fs.mkdirSync(publicDir, { recursive: true });
+  const publicDirPath = path.dirname(OUTPUT_FILE);
+  if (!fs.existsSync(publicDirPath)) {
+    fs.mkdirSync(publicDirPath, { recursive: true });
   }
   
   if (!fs.existsSync(MUSIC_FOLDER)) {
@@ -266,12 +266,6 @@ async function scanMusicFolder() {
     } catch (error) {
       console.error(`Error processing ${filePath}:`, error.message);
     }
-  }
-
-  // Ensure public directory exists
-  const publicDir = path.dirname(OUTPUT_FILE);
-  if (!fs.existsSync(publicDir)) {
-    fs.mkdirSync(publicDir, { recursive: true });
   }
 
   // Write songs.json
